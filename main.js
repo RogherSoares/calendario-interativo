@@ -24,4 +24,15 @@ function colorirDia() {
 
     //Declara e inicializa contadores
     let contadorAzul = 0, contadorVerde = 0, contadorRosa = 0, contadorRoxo = 0;
+
+    //Loop para verificar o estilo de cada celula e contar quantas tem cor e qual cor
+    for (let i = 0; i < elementos.length; i++) {
+        // obtem o estilo compuatdo dp elemento atual
+        var estilo = window.getComputedStyle(elementos[i]);
+
+        //Obtem a cor de fundo atual da célula
+        var corEstilo = estilo.backgroundColor;
+
+
+    }
 }
