@@ -18,4 +18,10 @@ function colorirDia() {
     } else {
         alert("Favor informar um dia do calendário");
     }
+
+    //Elemento para pegar a celula da tabela
+    let elementos = document.querySelectorAll('td');
+
+    //Declara e inicializa contadores
+    let contadorAzul = 0, contadorVerde = 0, contadorRosa = 0, contadorRoxo = 0;
 }
